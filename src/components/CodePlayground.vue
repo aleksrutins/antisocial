@@ -11,7 +11,7 @@
         }
     ]
 
-    function renderFeed(feed) {
+    function renderFeed(posts: typeof feed) {
 
     }
 
