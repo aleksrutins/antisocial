@@ -6,10 +6,15 @@ const config = {
     "./src/**/*.{vue,js,ts}"
   ],
   theme: {
-    extend: {
-    },
+    fontFamily: {
+      'sans': ['Josefin Sans', 'sans-serif'],
+      'serif': ['Libre Baskerville', 'serif'],
+      'mono': ['Inconsolata', 'monospace']
+    }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography')
+  ],
 }
 
 module.exports = config

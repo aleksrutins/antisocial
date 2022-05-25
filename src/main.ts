@@ -5,6 +5,8 @@ import Prism from 'prismjs';
 import "./index.css";
 import "prismjs/themes/prism-tomorrow.css"
 
+Prism.manual = true;
+
 const app = createApp(App);
 
 app.use(router);
